@@ -1045,7 +1045,7 @@ swiper:
 #hexo-butterfly-footer-marcus
 #see https://blog.marcus233.top/p/footer.html
 footer_beautify:
-  enable: true
+  enable: false
   priority: 5 #过滤器优先权
   enable_page: all # 应用页面
   layout: # 挂载容器类型
