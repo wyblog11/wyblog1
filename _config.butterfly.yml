@@ -978,3 +978,183 @@ tag_plugins:
 
 # 友链样式，butterfly为默认样式，volantis为站点卡片样式.flexcard为弹性卡片样式
 flink_style: flexcard # butterfly | volantis | flexcard
+
+# hexo-butterfly-categories-card
+# see https://akilar.top/posts/a9131002/
+categoryBar:
+  enable: true # 开关
+  priority: 5 #过滤器优先权
+  enable_page: / # 应用页面
+  layout: # 挂载容器类型
+    type: id
+    name: recent-posts
+    index: 0
+  column: odd # odd：3列 | even：4列
+  row: 1 #显示行数，默认两行，超过行数切换为滚动显示
+  message:
+    - descr: Ubuntu指南
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover1.webp
+    - descr: 玩转Win10
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover2.webp
+    - descr: 长篇小说连载
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover3.webp
+    - descr: 个人日记
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover4.webp
+    - descr: 诗词歌赋
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover5.webp
+    - descr: 杂谈教程
+      cover: https://npm.elemecdn.com/akilar-candyassets/image/cover6.webp
+  custom_css: https://npm.elemecdn.com/hexo-butterfly-categories-card/lib/categorybar.css
+
+swiper:
+    enable: true # 开关
+    randomenable: true # 创造力开关
+    priority: 5 #过滤器优先权
+    enable_page: / # 应用页面
+    timemode: date #date/updated
+    layout: # 挂载容器类型
+      type: id
+      name: home_top
+      index: 1
+    category:
+      - name: 前端
+        path: /categories/前端/
+        shadow: var(--marcus-shadow-blue)
+        class: blue
+        icon: fas fa-dove
+      - name: 中学
+        path: /categories/中学/
+        shadow: var(--marcus-shadow-red)
+        class: red
+        icon: fas fa-burn
+      - name: 生活
+        path: /categories/生活/
+        shadow: var(--marcus-shadow-green)
+        class: green
+        icon: fas fa-book
+    above_title: 人间值得
+    below_title: 未来可期
+    subtitle: BLOG.MARCUS233.TOP
+    default_descr: 再怎么看我也不知道怎么描述它的啦！
+    swiper_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.css #swiper css依赖
+    swiper_js: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper.min.js #swiper js依赖 #swiper js依赖
+    custom_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiperstyle.min.css # 适配主题样式补丁
+    custom_js: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/swiper_init.min.js # swiper初始化方法
+    categorygroup_css: https://cdn1.tianli0.top/npm/hexo-butterfly-swiper-marcus/lib/categoryGroup.min.css
+
+#hexo-butterfly-footer-marcus
+#see https://blog.marcus233.top/p/footer.html
+footer_beautify:
+  enable: true
+  priority: 5 #过滤器优先权
+  enable_page: all # 应用页面
+  layout: # 挂载容器类型
+      type: id
+      name: footer
+      index: 1
+  footer_icons:
+    enable: true
+    left:
+      - icon: fa-solid fa-compass
+        link: https://mnblog.flowus.cn/
+        desrc: 个人主页
+        class: out
+      - icon: fa-brands fa-qq
+        link: https://res.abeim.cn/api/qq/?qq=3105950984
+        desrc: 联系QQ
+        class: out
+      - icon: fa-brands fa-weixin
+        link: /wechat/
+        desrc: 联系微信
+        class: in
+      - icon: fa-solid fa-envelope
+        link: mailto:xiaoxin104@outlook.com
+        desrc: 发送邮件
+        class: out
+    right:
+      - icon: fa-brands fa-github
+        link: https://github.com/wyblog11
+        desrc: Github主页
+        class: out
+      - icon: fa-brands fa-bilibili
+        link: https://space.bilibili.com/1024450661
+        desrc: 哔哩哔哩主页
+        class: out
+      - icon: fa-solid fa-star
+        link: /stars/
+        desrc: 藏宝阁
+        class: in
+      - icon: fa-solid fa-comment
+        link: /message/
+        desrc: 留言
+        class: in
+  footer_logo:
+    enable: true
+    url: https://cdn-us.imgs.moe/2023/04/22/64431dd94e287.jpg
+  footer_group:
+    enable: true
+    footer_group_link:
+      - group_title: 直达
+        footer_links: 
+          - text: 藏宝阁
+            link: /stars/
+            class: in
+          - text: 优秀句子
+            link: /sentence/
+            class: in
+          - text: 空间说说
+            link: /memos/
+            class: in
+          - text: 友链订阅
+            link: /fcircle/
+            class: in
+          - text: 切换背景
+            link: /bg/
+            class: in
+      - group_title: 关于
+        footer_links: 
+          - text: 关于我
+            link: /about/
+            class: in
+          - text: RSS订阅
+            link: /atom.xml
+            class: in
+          - text: 我的相册
+            link: /picture/
+            class: in
+      - group_title: 分类
+        footer_links: 
+          - text: 博客相关
+            link: /categories/博客相关
+            class: in
+          - text: 查看全部
+            link: /categories/
+            class: in 
+  footer_friend_links:
+    enable: true
+    number: 5
+  footer_bottom:
+    copyright:
+      enable: true
+      author: 无影博客
+      link: https://wyblog1.tk/
+      time: 2023
+    left:
+      - text: 雨云
+        desrc: 本站CDN支持
+        link: https://rainyun.com/
+      - text: 网盾星球
+        desrc: 本站CDN防护主要提供商:网盾星球
+        link: https://www.netdun.net/
+    right:
+      - text: Hexo
+        desrc: 框架
+        link: https://hexo.io/zh-cn/
+      - text: Butterfly
+        desrc: 主题
+        link: https://butterfly.js.org/
+    runtime:
+      enable: true
+      time: 2023/01/29 00:00:00
+  footer_css: https://cdn1.tianli0.top/gh/wyblog11/wyblog-2@main/source/css/footer.min.css
+  footer_js: https://cdn1.tianli0.top/npm/hexo-butterfly-footer-marcus/lib/footer.min.js
