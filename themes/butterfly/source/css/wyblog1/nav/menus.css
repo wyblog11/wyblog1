@@ -3,7 +3,7 @@
 #page,
 #category,
 #posts,
-#tag {
+#tags {
   width: 100%;
 }
 .page:not(.page.home) .aside-content {
