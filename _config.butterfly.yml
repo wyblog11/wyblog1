@@ -659,7 +659,7 @@ preloader: false
 # --------------------------------------
 
 aside:
-  enable: false
+  enable: true
   hide: false
   button: true
   mobile: false # display on mobile
