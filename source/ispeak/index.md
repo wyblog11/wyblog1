@@ -1,7 +1,6 @@
 ---
 title: 哔哔
 date: 2021-10-17 16:36:12
-type: 'bb'
 comments: true
 aside: false
 ---
