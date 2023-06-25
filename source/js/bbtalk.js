@@ -1,7 +1,7 @@
 let jsonUrl = 'https://kkapi.wyblog1.tk/api/ispeak?author=63c28a71aa610fa0dc9b6f1a' // 在这修改api
 
 document.getElementById('bber-talk').addEventListener('click', () => {
-    window.location.pathname = '/bb/' // 在这修改你的哔哔页面地址
+    window.location.pathname = '/ispeak/' // 在这修改你的哔哔页面地址
 })
 
 bbtalk();
