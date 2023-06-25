@@ -1,4 +1,4 @@
-let jsonUrl = 'https://kkapi-open-xi.vercel.app/api/ispeak?author=62cfe22a3a91f6ac8ea6803f' // 在这修改api
+let jsonUrl = 'https://kkapi.wyblog1.tk/api/ispeak?author=63c28a71aa610fa0dc9b6f1a' // 在这修改api
 
 document.getElementById('bber-talk').addEventListener('click', () => {
     window.location.pathname = '/bb/' // 在这修改你的哔哔页面地址
