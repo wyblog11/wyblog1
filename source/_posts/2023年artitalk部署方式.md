@@ -5,6 +5,7 @@ tags: 说说
 cover: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
+type: "post"
 description: 最新artalk部署方式
 abbrlink: 13221
 date: 2023-01-26 20:05:10
