@@ -865,13 +865,16 @@ inject:
     - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/lxgw-wenkai-screen-webfont@1.1.0/style.css" />
     - <script charset="UTF-8" id="LA_COLLECT" src="//sdk.51.la/js-sdk-pro.min.js"></script>
     - <script>LA.init({id:"Jws8lO85zPmXkSKj",ck:"Jws8lO85zPmXkSKj"})</script>
+    - <script src="https://cdn1.tianli0.top/npm/vue@2.6.14/dist/vue.min.js"></script>
+    - <script src="https://cdn1.tianli0.top/npm/element-ui@2.15.6/lib/index.js"></script>
+    - <link rel="stylesheet" href="https://cdn1.tianli0.top/npm/element-ui@2.15.6/packages/theme-chalk/lib/index.css">
     # - <link rel="stylesheet" href="/css/custom.css">
     # - <link rel="stylesheet" href="/xxx.css">
   bottom:
     - <script async src="//at.alicdn.com/t/font_2749059_1lswi5j6yqg.js"></script>
     - <script async src="//at.alicdn.com/t/c/font_3895868_wuz1sa9y8o.js"></script>
     - <script src="https://at.alicdn.com/t/c/font_3570527_dthoqrrv2tv.js"></script>
-    - <script src="/js/add/F12和复制.js"></script>
+    - <script src="/js/add/F12和复制提醒.js"></script>
     - <script src="/js/add/nav.js"></script>
     - <script src="/js/add/leftsidemenu.js"></script>
     # - <script src="https://cdn1.tianli0.top/gh/fz6m/lamu-leimu-button@1.2/dist/lamu-leimu.min.js"></script> # 拉姆雷姆角标参考
