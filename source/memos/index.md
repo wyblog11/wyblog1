@@ -3,6 +3,7 @@ title: memos
 top_img: false
 comments: true
 aside: false
+type: page
 date: 2021-03-14 20:00:00
 ---
 <div class="page-top-card" style="background-image: url(https://memos.wyblog1.tk/o/r/5/zongbg.webp);">    
