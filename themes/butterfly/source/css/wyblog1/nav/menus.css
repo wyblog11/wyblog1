@@ -21,7 +21,8 @@
 #page,
 #category,
 #post,
-#tag {
+#link,
+#tags {
   width: 100%;
 }
 .page:not(.page.home) .aside-content {
