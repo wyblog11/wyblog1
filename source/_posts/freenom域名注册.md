@@ -9,7 +9,7 @@ tags:
 cover: https://images.boysec.cn/cover1.webp
 mathjax: true
 katex: true
-type: "post"
+type: post
 description: 用super搭建属于自己的博客
 abbrlink: 13229
 date: 2023-06-11 20:05:10
