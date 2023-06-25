@@ -20,12 +20,10 @@
 #archive,
 #page,
 #category,
+#post,
 #tag {
   width: 100%;
 }
 .page:not(.page.home) .aside-content {
   display: none;
-}
-.recent-posts{
-  width:1200px!important;
 }
