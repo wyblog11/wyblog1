@@ -884,23 +884,11 @@ inject:
 # 非必要請不要修改
 CDN:
   # main
-  main_css: /css/index.css
   jquery: https://cdnjs.sourcegcdn.com/ajax/libs/jquery/3.6.0/jquery.min.js
-  main: /js/main.js
   utils: /js/utils.js
 
   # pjax
   pjax: https://cdnjs.sourcegcdn.com/ajax/libs/jquery.pjax/2.0.1/jquery.pjax.min.js
-
-  # comments
-  gitalk: https://cdn1.tianli0.top/npm/gitalk@latest/dist/gitalk.min.js
-  gitalk_css: https://cdn1.tianli0.top/npm/gitalk/dist/gitalk.min.css
-  valine: https://cdn1.tianli0.top/npm/valine/dist/Valine.min.js
-  disqusjs: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqus.js
-  disqusjs_css: https://cdn1.tianli0.top/npm/disqusjs@1/dist/disqusjs.css
-  utterances: https://utteranc.es/client.js
-  twikoo: https://cdnjs.sourcegcdn.com/ajax/libs/twikoo/1.6.7/twikoo.all.min.js
-  waline: https://cdn1.tianli0.top/npm/@waline/client/dist/Waline.min.js
 
   # share
   addtoany: https://static.addtoany.com/menu/page.js
