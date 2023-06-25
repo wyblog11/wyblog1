@@ -44,7 +44,7 @@ a:hover {
     height: 12rem;
 }
 div#page {
-    background: none;
+    background: #39c5bb;
 }
 .page-title{
     display: none;
