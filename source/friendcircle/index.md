@@ -6,7 +6,7 @@ sitemap: false
 ---
 ## 邻居们的好文章
 
-**就是朋友圈啦！**（因为接下来打算重构友链并整合友圈，所以就先用公共库了）
+**就是朋友圈啦！**
 
 <!-- 挂载友链朋友圈的容器 -->
 <div id="cf-container">与主机通讯中……</div>
@@ -15,8 +15,7 @@ sitemap: false
 <!-- 匹配自己的友链或加载后端数据
 <script type="text/javascript">
   var fdataUser = {
-    jsonurl: 'https://cdn.edui.fun/lmm.json',  //【推荐】json 匹配模式
-    //apiurl: 'https://hexo-circle-of-friends-lmm214.vercel.app/',  //自部署api
+    apiurl: 'https://fcircle.wyblog1.tk/',  //自部署api
   }
 </script>
 -->
