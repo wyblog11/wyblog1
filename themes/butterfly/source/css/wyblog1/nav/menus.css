@@ -1,6 +1,8 @@
-/* 全局宽度 */
 .layout {
-  width: 1400px;
+    display: flex;
+    margin: 0 auto;
+    padding: 0.35rem 2.5px;
+    max-width: 1300px;
 }
 
 /* 侧边卡片栏宽度 */
